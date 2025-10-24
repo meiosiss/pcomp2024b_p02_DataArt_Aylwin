@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+body {
+    font-family: "Silkscreen", sans-serif;
+    font-size: 13px;
+}
+
+.contenedor-principal {
+
+    border: 2px solid #333;
+    padding: 30px;         
+    margin: 60px auto;      
+    width: 85%;            
+    max-width: 1200px;      
+    background-color: rgba(0, 0, 0, 0.98);
+    border-radius: 10px;  
+   
+    text-align: center; 
+}
+
+/*texto*/
+.contenedor-principal p {
+  
+    text-align: justify;
+    line-height: 1.8; /*interlineado*/
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+
+/*titulos*/
+.contenedor-principal h1,
+.contenedor-principal h2 {
+    color: white;
+}
+
+.contenedor-1 p{
+    text-align: center;
+    color: blue;
+}
+
+
+
+
+}
+
+/*imagenes*/
+.contenedor-principal img {
+   
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin: 20px auto;
+    border-radius: 5px; 
+}
+
+/*fijar video*/
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; 
+}
